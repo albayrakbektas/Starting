@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+span{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.column{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 800px;
+    background-color: #9fe7ff;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2{
+    text-align: center;
+    font-size: 5vw;
+}
+
+.list{
+    font-size: 2vw;
+}
+
+#buttonLeft{
+    text-align: center;
+    width: 35%;
+    height: 4%;
+    background-color: brown;
+    margin: auto;
+    border-radius: 12px;
+    border-style: none;
+}
+
+
+#thePatient{
+    text-align: center;
+    font-size: 4vw;
+    height: 180px;
+    font-family: Arial, sans-serif;
+}
+
+#buttonRight{
+    float: right;
+    text-align: center;
+    background-color: brown;
+    margin: auto;
+    border-radius: 12px;
+    border-style: none;
+    height: 4%;
+    width: 35%;
+}
+
+#update{
+    height: 300px;
+}
+
+
